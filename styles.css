@@ -444,6 +444,48 @@ nav a:hover {
   }
 }
 
+/* Projects Section */
+#projects {
+  background-color: #000000;
+  padding: 50px 20px;
+  color: #ffffff;
+}
+
+#projects h2,
+#projects h3 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.projects {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.grid-box {
+  background-color: #202c22;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(20, 36, 24, 0.08);
+  margin-top: 2rem;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 30px;
+  padding: 20px;
+}
+
+.grid-item {
+  background: #f0f0f0;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px; /* Make sure this is NOT 50% */
+  font-weight: bold;
+  color: #000;
+}
+
 @media (max-width: 768px) {
   .project-circle {
     width: 250px;
